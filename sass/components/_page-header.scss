@@ -1,0 +1,13 @@
+.page-header {
+	border-bottom: 1px solid $borderColor;
+}
+
+.page-header__contact-links {
+	display: flex;
+	gap: 30px;
+}
+
+.page-header__contact-container {
+    display: inline-flex;
+    padding-right: 6px;
+}

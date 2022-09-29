@@ -1,0 +1,40 @@
+.showcase {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+
+    &__title {
+        display: flex;
+        font-weight: 600;
+        width: 660px;
+        margin-top: 200px;
+        margin-bottom: 30px;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06rem;
+        color: $titleColor;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        display: flex;
+        font-family: $primaryFont;
+        padding: 10px 42px;
+        margin-bottom: 200px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: $themeColor;
+        color: $titleColor;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

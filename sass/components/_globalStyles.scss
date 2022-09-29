@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+    font-family: $primaryFont;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.03rem;
+    line-height: 1.714rem;
+}
+
+input {
+    width: 100%;
+}
+
+figcaption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

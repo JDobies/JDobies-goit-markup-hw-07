@@ -1,0 +1,9 @@
+.nav-menu {
+    display: flex;
+
+    &__element {
+        display: flex;
+        list-style: none;
+        gap: 46px;
+    }
+}

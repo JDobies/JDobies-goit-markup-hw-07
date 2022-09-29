@@ -1,0 +1,25 @@
+.our-clients {
+	&__title {
+		@include title();
+	}
+	&__list {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		list-style: none;
+		justify-content: space-between;
+	}
+	&__icon {
+		border: 1px solid $iconPrimary;
+		border-radius: 5px;
+		fill: $iconPrimary;
+		transition-property: fill, border-color;
+		transition-duration: 0.25s;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&__list-element:hover svg,
+	&__list-element:focus svg {
+		fill: $themeColor;
+		border-color: $themeColor;
+	}
+}

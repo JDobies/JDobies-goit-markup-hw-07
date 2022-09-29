@@ -1,0 +1,17 @@
+.feature-list {
+    display: flex;
+	justify-content: space-between;
+	width: 100%;
+	list-style: none;
+	gap: 30px;
+
+    &__title {
+        text-transform: uppercase;
+	font-weight: 700;
+    }
+
+    &__content {
+        color: $inactiveColor;
+    }
+
+}
